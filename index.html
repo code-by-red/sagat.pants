@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sagat Pants | Coisa Fina de Quebrada</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        reggaeGreen: '#1b4d3e',
+                        reggaeYellow: '#f4d03f',
+                        reggaeRed: '#b03a2e',
+                        darkBg: '#0a0a0a',
+                        cardBg: '#141414',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-darkBg text-gray-100 font-sans antialiased selection:bg-reggaeYellow selection:text-black">
+
+    <header class="sticky top-0 z-50 bg-darkBg/95 backdrop-blur-md border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-reggaeRed via-reggaeYellow to-reggaeGreen flex items-center justify-center font-black text-black text-xl shadow-lg shadow-reggaeRed/20">
+                    S
+                </div>
+                <div>
+                    <h1 class="text-xl font-black tracking-wider uppercase text-white font-marker">sagat_pants</h1>
+                    <span class="text-xs text-reggaeYellow font-semibold tracking-widest block -mt-1">COISA FINA DE QUEBRADA</span>
+                </div>
+            </div>
+            
+            <div class="hidden md:flex items-center space-x-6 text-sm font-semibold tracking-wide text-gray-300">
+                <a href="#catalogo" class="hover:text-reggaeYellow transition-colors">Catálogo</a>
+                <a href="#sobre" class="hover:text-reggaeYellow transition-colors">No Baile</a>
+                <a href="https://instagram.com" target="_blank" class="hover:text-reggaeYellow transition-colors flex items-center gap-1">
+                    <i class="fab fa-instagram"></i> @sagat_pants
+                </a>
+            </div>
+
+            <a href="https://wa.me/5511922048764?text=Salve,%20dei%20uma%20olhadinha%20no%20site%20e%20queria%20saber%20como%20funciona!" target="_blank" class="bg-gradient-to-r from-reggaeGreen to-emerald-700 text-white px-4 py-2 rounded-xl font-bold text-sm shadow-lg shadow-reggaeGreen/20 hover:scale-105 transition-transform flex items-center gap-2">
+                <i class="fab fa-whatsapp text-lg"></i> Fale Conosco
+            </a>
+        </div>
+    </header>
+
+    <a href="https://wa.me/5511922048764?text=Salve,%20vim%20pelo%20site%20e%20quero%20tirar%20uma%20dúvida!" target="_blank" class="fixed bottom-6 right-6 z-50 bg-emerald-600 hover:bg-emerald-500 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl shadow-emerald-600/50 hover:scale-110 transition-all text-2xl" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <section class="relative overflow-hidden py-16 lg:py-24 border-b border-gray-900">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(176,58,46,0.15),transparent_50%),radial-gradient(circle_at_bottom_left,rgba(27,77,62,0.15),transparent_50%)]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <span class="inline-block bg-reggaeRed/20 text-reggaeRed text-xs font-black tracking-widest px-3 py-1 rounded-full uppercase border border-reggaeRed/30 mb-4">
+                📦 Entrega pra todo o Brasil
+            </span>
+            <h2 class="text-4xl sm:text-6xl font-black tracking-tight uppercase mb-6 leading-tight">
+                Calças no estilo que <span class="text-transparent bg-clip-text bg-gradient-to-r from-reggaeRed via-reggaeYellow to-reggaeGreen">quiserem</span>
+            </h2>
+            <p class="max-w-2xl mx-auto text-gray-400 text-base sm:text-lg mb-8 font-medium">
+                De favelado pra favelado. Modelagem pesada, do G10 ao G30, com a essência underground e acabamento de primeira linha.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#catalogo" class="bg-reggaeYellow text-black font-extrabold px-8 py-3.5 rounded-xl shadow-lg shadow-reggaeYellow/20 hover:bg-yellow-400 transition-all uppercase tracking-wider text-sm">
+                    Ver Catálogo Chave
+                </a>
+                <a href="https://wa.me/5511922048764?text=Salve,%20vim%20pelo%20site%20e%20quero%20montar%20uma%20calça!" target="_blank" class="bg-cardBg border border-gray-800 text-white font-extrabold px-8 py-3.5 rounded-xl hover:bg-gray-800 transition-all uppercase tracking-wider text-sm flex items-center gap-2">
+                    <i class="fab fa-whatsapp text-emerald-500 text-lg"></i> Chamar no Zap
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16" id="catalogo">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+            <div>
+                <span class="text-reggaeYellow font-bold tracking-widest uppercase text-xs">Nossos Modelos</span>
+                <h3 class="text-3xl font-black uppercase tracking-tight text-white mt-1">Escolha a sua calça</h3>
+            </div>
+            <p class="text-gray-400 text-sm mt-2 md:mt-0">Clique no modelo desejado para escolher cor, tamanho e encomendar.</p>
+        </div>
+
+        <div id="grid-produtos" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Products will be injected via JS -->
+        </div>
+    </main>
+
+    <section class="bg-cardBg border-t border-b border-gray-900 py-16" id="sobre">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="text-reggaeGreen font-bold tracking-widest uppercase text-xs">Identidade de Quebrada</span>
+                    <h3 class="text-3xl font-black uppercase tracking-tight text-white mt-1 mb-6">De Favelado pra Favelado</h3>
+                    <p class="text-gray-400 leading-relaxed mb-4">
+                        A <strong class="text-white">sagat_pants</strong> nasceu no corre pra trazer aquela peça pesada que define o respeito no baile. A gente sabe o que a quebrada veste e o valor de uma peça chave.
+                    </p>
+                    <p class="text-gray-400 leading-relaxed mb-6">
+                        Trabalhamos com <strong class="text-reggaeYellow">tamanhos diversos do G10 ao G30</strong> para geral se sentir representado e confortável com estilo de sobra.
+                    </p>
+                    <div class="grid grid-cols-3 gap-4 text-center">
+                        <div class="bg-darkBg p-4 rounded-xl border border-gray-800">
+                            <span class="block text-2xl font-black text-reggaeRed">153+</span>
+                            <span class="text-xs text-gray-400 uppercase font-semibold">Seguidores</span>
+                        </div>
+                        <div class="bg-darkBg p-4 rounded-xl border border-gray-800">
+                            <span class="block text-2xl font-black text-reggaeYellow">100%</span>
+                            <span class="text-xs text-gray-400 uppercase font-semibold">Quebrada</span>
+                        </div>
+                        <div class="bg-darkBg p-4 rounded-xl border border-gray-800">
+                            <span class="block text-2xl font-black text-reggaeGreen">Brasil</span>
+                            <span class="text-xs text-gray-400 uppercase font-semibold">Entrega</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="absolute -inset-1 bg-gradient-to-r from-reggaeRed via-reggaeYellow to-reggaeGreen rounded-2xl blur opacity-30"></div>
+                    <div class="relative bg-darkBg border border-gray-800 p-8 rounded-2xl text-center">
+                        <i class="fas fa-crown text-reggaeYellow text-5xl mb-4"></i>
+                        <h4 class="text-xl font-bold uppercase tracking-wide text-white mb-2">Qualidade e Responsa</h4>
+                        <p class="text-gray-400 text-sm">
+                            Cada calça sai no capricho. Escolha o seu modelo favorito, defina as cores e tamanhos exatos e mande direto pro nosso WhatsApp.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-darkBg text-gray-500 py-12 border-t border-gray-900 text-center text-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-lg font-black text-white font-marker tracking-wider mb-2">SAGAT_PANTS</h2>
+            <p class="mb-4">Calças no estilo que quiserem. Entrega pra todo Brasil 📦</p>
+            <p class="text-xs text-gray-600">&copy; 2026 Sagat Pants. Todos os direitos reservados. Feito com essência de quebrada.</p>
+        </div>
+    </footer>
+
+    <div id="modal-custom" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm hidden">
+        <div class="bg-cardBg border border-gray-800 rounded-2xl max-w-md w-full p-6 sm:p-8 relative shadow-2xl animate-in fade-in zoom-in duration-200">
+            <button onclick="fecharModal()" class="absolute top-4 right-4 text-gray-400 hover:text-white text-xl">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <span class="text-xs uppercase font-extrabold text-reggaeYellow tracking-widest block mb-1">Personalize sua peça</span>
+            <h3 id="modal-titulo-produto" class="text-2xl font-black uppercase text-white mb-6">Nome da Calça</h3>
+
+            <form id="form-pedido" onsubmit="enviarWhatsApp(event)" class="space-y-6">
+                <div>
+                    <label class="block text-xs uppercase font-bold text-gray-300 mb-2">Cores Disponíveis:</label>
+                    <div class="grid grid-cols-3 gap-2" id="opcoes-cores">
+                        <!-- Cores injetadas por JS -->
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-xs uppercase font-bold text-gray-300 mb-2">Qual o Tamanho? (G10 ao G30):</label>
+                    <select id="select-tamanho" required class="w-full bg-darkBg border border-gray-800 text-white rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-reggaeYellow">
+                        <option value="" disabled selected>Selecione o tamanho</option>
+                        <option value="G10">G10</option>
+                        <option value="G15">G15</option>
+                        <option value="G20">G20</option>
+                        <option value="G25">G25</option>
+                        <option value="G30">G30</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="w-full bg-gradient-to-r from-emerald-600 to-reggaeGreen text-white font-extrabold py-3.5 rounded-xl uppercase tracking-wider text-sm shadow-lg shadow-reggaeGreen/20 hover:scale-[1.02] transition-transform flex items-center justify-center gap-2">
+                    <i class="fab fa-whatsapp text-lg"></i> Pedir pelo WhatsApp
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Link to external script -->
+    <script src="script.js"></script>
+</body>
+</html>
